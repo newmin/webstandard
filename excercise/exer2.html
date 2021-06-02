@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오류를 찾으세요</title>
+    <style>
+        h3 {
+            text-align: center;
+            color: darkred;
+        }
+
+        span {
+            color: skyblue;
+            font-size: 15px;
+        }
+
+        tfoot {
+            background-color: tan;
+            border: 20px tomato;
+            border-radius: 20px;
+        }
+
+        thead {
+            background-color: hotpink;
+            font-size: large;
+        }
+
+        tbody {
+            background-color: indigo;
+            color: wheat;
+            text-align: center;
+        }
+    </style>
+    <script>
+        window.addEventListener("load", function () {
+            const tfootEle = document.querySelector("tfoot");
+            tfootEle.addEventListener("mouseover", function (e) {
+                tfootEle.style.backgroundColor = "yellow";
+            });
+
+            tfootEle.addEventListener("mouseout",function(e){
+                tfootEle.style.backgroundColor = "tan";
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <button>딸깍!</button>
+    <div>adc</div>
+    <div>def</div>
+    <span>1</span>
+    <span> 2 </span>
+    <p>123</p>
+    <p>456</p>
+    <h1>123</h1>
+    <h2>456</h2>
+    <img src="./img." alt="">
+
+    <table>
+        <thead>
+            <th> 1열 </th>
+            <th> 2열 </th>
+            <th> 3열 </th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>11</td> tabledata
+                <td>12</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

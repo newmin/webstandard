@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body{
+  background-color: aliceblue
+}
+main{
+  background-color: pink;
+}
+span{
+  text-indent: 20px;
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+}
+label{
+  font-family: 휴먼편지체;
+}
+footer>p{
+  font-family: 휴먼편지체;
+  text-indent: 20px;
+  background-color: orange;
+  border-radius: 10px;
+}

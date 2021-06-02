@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+  background-color: aliceblue;
+}
+header>h1{
+  color: brown;
+  text-align: center;
+}
+header{
+  bottom: 1px solid black;
+}
+.subtitle>a{
+  color: blue;
+  text-decoration: none;
+}
+h2,h3{
+  color: blue;
+  text-shadow: 3px 3px powderblue;
+}
+nav>ul{
+  border: 1px dashed black;
+}
+nav a{
+  color: blue;
+  text-decoration: none;
+}
+p{
+  font-family:  휴먼편지체;
+  font-size: 1em;
+  text-indent: 1em;
+}
+footer{
+  background-color: orange;
+  border-radius: 10px;
+}
+footer>p{
+  text-decoration: none;
+}
