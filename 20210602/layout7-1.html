@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      outline: 1px solid green;
+    }
+    body{
+      margin: 0;
+    }
+    /* 공통 */
+    .container{
+      width: 600px;
+      height: 100%;
+      margin: auto;
+      /* border: 5px solid black; */
+    }
+    .uppermost{
+      background-color: rgb(247, 247, 24);
+      height: 30px;
+    }
+    .header{
+      background-color: aqua;
+      height: 200px;
+      line-height: 100px;
+      text-align: center;
+    }
+    .header .container-header {
+      width: 100%;
+      background-image: url(https://cdn.pixabay.com/photo/2020/05/21/07/40/poppy-5199556__340.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-y: -150px;
+    }
+    .header .container-header img{
+      height: 100%;
+      width: 100%;
+    }
+    .nav{
+      background-color: aquamarine;
+      height: 30px;
+      line-height: 30px;
+    }
+    /* .nav .container-nav{
+      margin-right: 50px;
+      margin-left: 0;
+    } */
+    .nav .container-nav ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .nav .container-nav>ul>li{
+      display: inline;
+      float: left;
+      margin-right: 50px;
+      /* margin: 0; */
+    }
+    .nav .container-nav>ul>li>a{
+      color: inherit;
+      text-decoration: none;
+    }
+    .nav .container-nav>ul>li>a:hover{
+      text-decoration: underline;
+      font-weight: 800;
+    }
+    .sidebar{
+      background-color: red;
+      width: 30%;
+      height: 100%;
+      float: left;
+    }
+    .sidebar>ol>li{
+      height: 70px;
+    }
+    .content{
+      background-color: blue;
+      width: 70%;
+      height: 100%;
+      float: left;
+    }
+    .container-section{
+      height: 400px;
+      /* line-height: 400px; */
+      /* text-align: center; */
+    }
+    .container-section li{
+      margin: 0;
+      padding: 0;
+      height: 50px;
+    }
+    form>ul{
+      height: 50px;
+      margin: 0;
+      list-style: none;
+      padding: 0;
+    }
+    
+    .footer{
+      background-color: gray;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+    }
+    p{
+      margin: 0;
+
+    }
+    .clearfix::after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="uppermost">Log-in | Event Sale</div>
+  <div class="header">
+    <div class="container container-header">
+      <!-- <img src="https://cdn.pixabay.com/photo/2020/05/21/07/40/poppy-5199556__340.jpg" alt=""></div> -->
+  </div>
+  <div class="nav">
+    <div class="container container-nav">
+      <ul class="clearfix">
+        <li><a href="">menu1</a></li>
+        <li><a href="">menu2</a></li>
+        <li><a href="">menu3</a></li>
+        <li><a href="">menu4</a></li>
+        <li><a href="">menu5</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container container-section clearfix">
+    <div class="sidebar">
+      <ol>
+        <li>항목1</li>
+        <li>항목2</li>
+        <li>항목3</li>
+        <li>항목4</li>
+        <li>항목5</li>
+      </ol>
+    </div>
+    <div class="content">
+      <form action="">
+        <ul>로그인
+          <li>
+            ID<input type="text" name="ID" id="id">
+          </li>
+          <li>PW<input type="text" name="PW" id="pw"></li>
+          <li><button>로그인</button></li>
+        </ul>
+      </form>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container container-footer">
+      <p>Copyright<sub>(c)</sub> Kite All Right Reseved</p>
+    </div>
+  </div>
+</body>
+</html>

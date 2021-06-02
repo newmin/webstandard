@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      border: 5px solid black;
+      height: 25%;
+      box-sizing: border-box;
+    }
+    html,body{height: 100%;}
+    body{margin: 0;}
+    div.box{border-top: 0px;}
+    #bt5px {border-top: 5px solid black;}
+    div:nth-child(odd){
+      background-color: aqua;
+    }
+    div.box1{
+      text-align: center;
+    }
+    /* div.box1>span{
+      display: block;
+      margin-top: 25%;
+      position: fixed;
+    } */
+    .wrapper{
+      display: table;
+      width: 100%;
+      
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="box box1 wrapper" id="bt5px"><span>box1</span></div>
+  <div class="box box2">box2</div>
+  <div class="box box3">box3</div>
+  <div class="box box4">box4</div>
+</body>
+</html>
