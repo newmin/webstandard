@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .sub{
+            width: 800px;
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+            color: green;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .upper{
+            background-color: #06B2D7;
+            height: 50px;
+            line-height: 50px;
+        }
+        .upper .sub-u{
+            background-color: #FDFFD8;
+        }
+        .head{
+            background-color: #04738B;
+            height: 100px;
+            line-height: 100px;
+        }
+        .head .sub-h{
+            background-color: #BCBFA1;
+        }
+        .nav{
+            background-color: #0592B1;
+            height: 50px;
+            line-height: 50px;
+        }
+        .nav .sub-n{
+            background-color: #898C76;
+        }
+        .content{
+            background-color: #0487A3;
+            height: 200px;
+            line-height: 200px;
+        }
+        .content1{
+            float: left;
+            width: 60%;
+            background-color: #CD8C84;
+        }
+        .content2{
+            float: left;
+            width: 20%;
+            background-color: #9A6963;
+        }
+        .content3{
+            float: left;
+            width: 20%;
+            background-color: #664642;
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .fmenu{
+            background-color: #024857;
+            height: 50px;
+            line-height: 50px;
+        }
+        .fmenu .sub-fm{
+            background-color: #57594B;
+        }
+        .footer{
+            background-color: #001D24;
+            height: 100px;
+            line-height: 100px;
+        }
+        .footer .sub-f{
+            background-color: #252520;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="upper">
+        <div class="sub sub-u">Upper</div>
+    </div>
+    <div class="head">
+        <div class="sub sub-h">head</div>
+    </div>
+    <div class="nav">
+        <div class="sub sub-n">nav</div>
+    </div>
+    <div class="content">
+        <div class="sub container clearfix">
+            <div class="content1">content</div>
+            <div class="content2">sidebar</div>
+            <div class="content3">sidemenu</div>
+        </div>
+    </div>
+    <div class="fmenu">
+        <div class="sub sub-fm">footermenu</div>
+    </div>
+    <div class="footer">
+        <div class="sub sub-f">footer</div>
+    </div>
+</body>
+</html>
