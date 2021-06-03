@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+ /* 공통 레이아웃 */
+ body{
+  margin: 0;
+}
+.main{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  float: left;
+  padding-left: 15%;
+}
+/* 어퍼,네비,풋메뉴 높이 */
+.set-upper,.nav,.set-fmenu{
+  height: 80px;
+  line-height: 80px;
+}
+/* 헤더풋터 높이 */
+.header,.p6{
+  height: 200px;
+  line-height: 200px;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 업퍼모스트 */
+.uppermost{
+  background-color: #FDD692;
+}
+.sub-u{
+  background-color: #FBFFB9;
+}
+/* 헤더 */
+header{
+  background-color: #EC7357
+}
+.sub-h{
+  background-color: #eeb5a8
+}
+/* 네이게이터 */
+nav{
+  background-color: #754F44
+}
+.sub-n{
+  background-color: #996b5e
+}
+/* 콘텐트 */
+.content{
+  height: 400px;
+  line-height: 400px;
+}
+.content1{
+  width: 60%; background-color: #C5E99B; float: left;
+}
+.content2{
+  width: 20%; background-color: #8FBC94; float: left;
+}
+.content3{
+  width: 20%; background-color: #548687; float: left;
+}
+.sub-c{
+  background-color: #56445D
+}
+/* 풋터메뉴 */
+.fmenu{
+  background-color: bisque;
+}
+.sub-fm{
+  background-color: rgb(224, 192, 143);
+}
+/* 풋터 */
+footer{
+  background-color: burlywood;
+}
+.sub-f{
+  background-color: rgb(194, 122, 28);
+}
