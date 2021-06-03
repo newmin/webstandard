@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <style>
+    /* footer레이아웃 */
+    .footer-contents{
+      text-transform: uppercase;
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+    .footer-contents .footer-content1, .footer-content2, .footer-content3, .footer-content4{
+      float: left;
+      margin-right: 20px;
+    }
+    .footer-content1{
+      background-color: red;
+      color: white;
+      width: 150px;
+      height: 150px;
+      line-height: 150px;
+      text-align: center;
+    }
+    .footer-contents ul{
+      list-style: none;
+      padding-left: 0;
+    }
+    .footer-contents a{
+      text-decoration: none;
+      color: inherit;
+    }
+    .clearfix::after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .copyright{
+      text-align: center;
+    }
+    /* footer 스타일 */
+    .footer-contents ul li{
+      padding: 3px 0;
+    }
+    .footer-contents ul li:nth-child(1){
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    .footer-content2 .empacy{
+      color: pink;
+      font-weight: bolder;
+    }
+    .footer-content3 .tel {
+      font-weight: bolder;
+      font-size: 1.3em;
+      padding: 13px 0;
+    }
+    .footer-content3 .account{
+      color: rgb(22, 97, 209);
+    }
+    .footer-content4 .highlight-1{
+      background-color: blue;
+      color: white;
+      border-radius: 3px;
+    }
+    .footer-content4 .highlight-2{
+      background-color: black;
+      color: white;
+      border-radius: 3px;
+    }
+    .copyright .highlight-3{
+      background-color: #ccc;
+      color: white;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="footer-contents clearfix">
+    <div class="footer-content1">
+      AIRMALL
+    </div>
+    <div class="footer-content2">
+      <ul>
+        <li><a href="#">policy</a></li>
+        <li><a href="#">home</a></li>
+        <li><a href="#">AGREEMENT</a></li>
+        <li><a href="#" class="empacy">site policy</a></li>
+        <li><a href="#">MEMBERSHIP</a></li>
+      </ul>
+    </div>
+    <div class="footer-content3">
+      <ul>
+        <li>customer center</li>
+        <li>평일 : 오전9:00 ~ 오후18:00</li>
+        <li>점심 : 오후12:00 ~ 오후13:00 토/일/공휴일 휴무</li>
+        <li class="tel"><i class="fas fa-phone-volume"></i>&nbsp; 060-700-5454</li>
+        <li class="account">국민은행 : 010-7414-1995(예금주:최규민)</li>
+        <li class="account">농협은행 : 010-7414-1995(예금주:최규민)</li>
+      </ul>
+    </div>
+    <div class="footer-content4">
+      <ul>
+        <li>COMPANY INFORMATION</li>
+        <li>COMPANY:<span class="highlight-1">에어몰</span>  PROPRIETOR:홍길동,이순신</li>
+        <li>TEL:010-7414-1995 E-MAIL:rbals7587@gmail.com</li>
+        <li>주소:울릉도 동남쪽 뱃길따라 이백리</li>
+        <li>BUSINESS LICENSE : 123-456</li>
+        <li>뭐가 많노 슬슬 귀찮네 {<span class="highlight-2">사업자정보확인</span>}</li>
+        <li>뭐가하나 더 있네</li>
+        <li>MANAGER : 최규민</li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">
+    Copyright(c) 울산KH정보교육원 All Right Reserved <span class="highlight-3">디자인이 누구에 의해 됐고 어쩌고 저쩌고</span>
+  </div>
+</body>
+</html>
