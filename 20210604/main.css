@@ -1,0 +1,145 @@
+@charset "UTF-8";
+*{
+  /* outline: 1px solid red; */
+}
+body{
+  margin: 0;
+}
+.clearfix{
+  content: "";
+  display: block;
+  clear: both;
+}
+.all{
+  margin: 0 auto;
+}
+/* 최상위 */
+.uppermost{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: black;
+  text-align: right;
+}
+.upper{
+  width: 600px;
+  height: inherit;
+  background-color: black;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
+/* 헤더 */
+header{
+width: 600px;
+height: 150px;
+background: center url(https://cdn.pixabay.com/photo/2018/05/26/21/21/blue-berries-3432295__340.jpg);
+}
+/* header img{
+  width: 600px; height: 150px;
+} */
+/* 메인 nav*/
+main{
+  background-color: black;
+  width: 600px;
+  height: 50px;
+  line-height: 50px;
+}
+nav ul{
+  width: inherit;
+  height: inherit;
+  margin: 0;
+}
+nav ul li{
+  height: 50px;
+  list-style: none;
+  float: left;
+  margin: 0px 20px;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
+nav li a:hover{
+  text-decoration: underline;
+}
+/* 컨테이너-aside,content,section */
+.container{
+  width: 600px;
+  height: 560px;
+}
+aside{
+  width: 20%;
+  height: 100%;
+  background-color: lightskyblue;
+  float: left;
+}
+.content{
+  width: 80%;
+  height: 100%;
+  background-color: lightcyan;
+  float: left;
+}
+#joinmember{
+  text-align: center;
+  letter-spacing: 0.5em;
+  margin: 10px;
+}
+.container section{
+  width:250px;
+  background-color: white;
+  margin : 0 auto;
+  height: 90%;
+}
+section ul{
+  list-style: none;
+  width: 90%;
+  padding: 0px;
+  margin: 0 auto;
+}
+section ul li{
+  margin-bottom: 0.3px;
+}
+section ul li:first-child{
+  padding-top: 20px;
+}
+section ul li:nth-child(odd){
+  font-weight: bold;
+  font-size: 15px;
+}
+section ul li:nth-child(-n+10):nth-child(even), #birth-area{
+  border: 1px solid #888;
+}
+section li input{
+  border: none;
+  outline: none;
+  height: inherit;
+}
+#joinbtn{
+  width: 100%;
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  margin: 20px auto;
+}
+#hobby input{
+  margin: 0;
+}
+
+/* 푸터 */
+footer{
+  background-color: #888;
+  width: 600px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
+footer p{
+  margin: 0;
+}

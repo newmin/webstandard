@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+*{
+  /* outline: 1px solid red; */
+}
+.main{
+  width: 600px;
+  margin: 20px auto;
+}
+.content{
+  width: 100%;
+  height: 100px;
+}
+
+
+/* 스타일 */
+body{
+  background-color: #F5F6F7;
+}
+.title{
+  font-weight: bolder;
+}
+.btn{
+  background-color: #03C75A;
+  color: white;
+}

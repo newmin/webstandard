@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <script src="https://kit.fontawesome.com/554631b1a6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="naver.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  
+</head>
+
+<body class="main">
+  <header><img src="https://logoproject.naver.com/img/img_story_renewal.png" alt=""></header>
+  <div>
+    <form>
+      <div class="content">
+        <label>
+          <div class="title">아이디</div>
+          <input type="text" id="id" maxlength="20" size="90" autofocus>
+        </label>
+        <div>안적었을때만[필수정보입니다]</div>
+      </div>
+
+      <div class="content">
+        <label for="">
+          <div class="title">비밀번호</div>
+          <input type="text" id="pw" maxlength="20" size="90">
+          <i class="fa-solid fa-lock"></i>
+        </label>
+        <div>안적으면[필수정보입니다] 8-16영대소문자특수문자</div>
+      </div>
+
+      <div class="content">
+        <label for="">
+          <div class="title">비밀번호 재확인</div>
+          <input type="password" id="pw" maxlength="20" size="90">
+          <i class="fa-solid fa-lock"></i>
+        </label>
+        <div>안적으면[필수정보입니다] 일치하지않습니다.</div>
+      </div>
+
+      <form action="">
+        <label for="">
+          <div class="title">이름 </div>
+          <input type="text" id="" size="90">
+        </label>
+        <div>안적으면[필수정보]</div>
+        <label for="month">
+          <div class="title">생년월일 </div>
+        </label>
+        <input type="text" id="month" placeholder="년(4자)" size="30" maxlength="4">
+        <select name="month">
+          <option value="1">월</option>
+          <option value="1">1월</option>
+          <option value="2">2월</option>
+          <option value="3">3월</option>
+          <option value="4">4월</option>
+          <option value="5">5월</option>
+          <option value="6">6월</option>
+          <option value="7">7월</option>
+          <option value="8">8월</option>
+          <option value="9">9월</option>
+          <option value="10">10월</option>
+          <option value="11">11월</option>
+          <option value="12">12월</option>
+        </select>
+        <input type="number" name="" id="" placeholder="일" size="30" min="1" max="31">
+        <div>태어난연도정확히적어~~</div>
+        <div class="title">성별</div>
+        <select name="sex">
+          <option value="0">성별</option>
+          <option value="1">남자</option>
+          <option value="2">여자</option>
+          <option value="3">선택 안함</option>
+        </select>
+        <div class="title">본인 확인 이메일</div>
+        <input type="email" name="" id="" size="90">
+      </form>
+
+      <form action="">
+        <div class="title">휴대전화</div>
+        <select name="contry" id="">
+          <option value="1">대한민국</option>
+          <option value="2">미국</option>
+        </select><br>
+        <input type="tel" name="" id="" size="50">
+        <input class="btn" type="submit" value="인증번호 받기"><br>
+        <input type="text" name="" id="" placeholder="인증번호를 입력하세요" size="90">
+      </form>
+      <input class="btn" type="submit" value="가입하기">
+    </form>
+  </div>
+</body>
+
+</html>

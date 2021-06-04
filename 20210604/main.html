@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<div class="all">
+  <div class="uppermost">
+    <div class="upper all">로그인 | 회원가입</div>
+  </div>
+  <header class="all">
+    <!-- <img src="https://cdn.pixabay.com/photo/2018/05/26/21/21/blue-berries-3432295__340.jpg" alt=""> -->
+  </header>
+  <main class="all">
+    <nav>
+      <ul class="clearfix">
+        <li><a href="#">웹표준</a></li>
+        <li><a href="#">자바</a></li>
+        <li><a href="#">안드로이드</a></li>
+        <li><a href="#">데이터베이스</a></li>
+        <li><a href="#">스프링</a></li>
+      </ul>
+    </nav>
+  </main>
+  <div class="container all clearfix">
+    <aside></aside>
+    <div class="content">
+      <h3 id="joinmember">회원가입</h3>
+      <section>
+        <form action="">
+          <ul>
+            <li><label for="user-id">아이디</label></li>
+            <li><input type="text" id="user-id" size="28"></li>
+            <li><label for="user-pw">비밀번호</label></li>
+            <li><input type="password" id="user-pw" size="28"></li>
+            <li><label for="user-pw-re">비밀번호 확인</label></li>
+            <li><input type="password" id="user-pw-re"size="28"></li>
+            <li><label for="user-tel">전화번호</label></li>
+            <li><input type="tel" id="user-tel"size="28"></li>
+            <li><label for="user-charname">별칭</label></li>
+            <li><input type="text" name="" id="user-charname"size="28"></li>
+            <li>지역</li>
+            <li>
+              <select name="region" id="">
+                <option value="0">== 선 택 ==</option>
+                <option value="1">서울</option>
+                <option value="2">부산</option>
+                <option value="3">대구</option>
+                <option value="4">대전</option>
+                <option value="5">울산</option>
+              </select>
+            </li>
+            <li>성별</li>
+            <li>
+              <input type="radio" name="sex" value="m" id="male"><label for="male">남자</label>
+              <input type="radio" name="sex" value="f" id="female"><label for="female">여자</label>
+            </li>
+            <li>취미</li>
+            <li id="hobby">
+              <input type="checkbox" id="hob1"><label for="hob1">독서</label>
+              <input type="checkbox" id="hob2"><label for="hob2">음악감상</label>
+              <input type="checkbox" id="hob3"><label for="hob3">운동</label>
+              <input type="checkbox" id="hob4"><label for="hob4">게임</label>
+            </li>
+            <li>생년월일</li>
+            <li id="birth-area">
+              <input type="date" name="" id="">
+            </li>
+            <li><input id="joinbtn" type="submit" value="회 원 가 입"></li>
+          </ul>
+      </section>
+      </form>
+    </div>
+  </div>
+  <footer class="all">
+    <p>Copyright by Gilldong Hong. All Right Reserved.</p>
+  </footer>
+</div>
+
+
+</html>
