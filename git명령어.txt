@@ -1,0 +1,35 @@
+github
+개인블로그
+프로젝트 형상관리 web버전
+
+git
+형상관리
+c/s버전
+
+nodeJs
+ecmascript 실행환경
+
+
+Git Bash 명령어
+clear : 화면 지우기
+ls : 현재 디렉토리 위치내용 요약 보기
+ls -al : 현재 디렉토리 위치 내용 보기
+cd (디렉토리명) : 디렉토리 변경
+rm -rf : 디렉토리 삭제
+pwd : 현재 디렉토리 위치
+mkdir (이름) : 디렉토리 생성
+mv (이동파일) (이동디렉토리) : 파일이동 or 복사
+
+git config --global core.editor "core --wait"
+
+-클론될 폴더 상위폴더 위치에서
+git clone (저장소 주소=원격저장소) (git 담을 폴더명=로컬저장소)
+stage상태 : git add 변경사항
+git add . → 모든 변경사항
+버전만들기 : git commit -m "메시지"
+원격저장소 업로드 : git push (원격저장소)
+수정사항 로컬저장소 반영 : git pull (저장소)
+저장소에 담긴 최신 버전 당겨옴. 다른 장소에서 사용
+
+로컬저장소 만들기 : git init (로컬저장소)  → 상위 폴더에서 (로컬저장소)를 로컬저장소로 만들겠다.
+		git init → 새로운 저장소명을 기입하지 않을 경우, 현재 폴더를 로컬저장소로 만들겠다.
